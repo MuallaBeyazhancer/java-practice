@@ -20,7 +20,13 @@ public class TestHiding {
 		City.buildARoad();
 		Capital.buildARoad();
 		
+		//==================
 		
+		City city2 = new City(33344, "Fairfax");
+		Capital cap2 = new Capital(65443, "Richmond", 5432113L);
+		
+		city2.letsBuildARoad(); // City
+		cap2.letsBuildARoad();  // City
 		
 		
 	}

@@ -9,7 +9,7 @@ public class Capital extends City{
 		super(id, name);
 		this.population = population;
 	}
-	
+	// methods hidden
 	public static void buildARoad() {
 		System.out.println("Capital City - building a road");
 	}
